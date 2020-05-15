@@ -61,6 +61,7 @@ class Owner
   end
   
   def sell_pets
+<<<<<<< HEAD
     self.cats.each do |cat|
       self.cats.delete(cat)
       cat.owner = nil
@@ -80,4 +81,9 @@ end
   end
   
     
-end
+=======
+    Dog.all.select{|dog| dog.mood = "nervous" }
+    
+  end 
+#>>>>>>> a6f0696831f8db53103d36dedb81129f6fdf95bd
+#end
